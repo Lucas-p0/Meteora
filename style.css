@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 :root {
-  --fonte-primaria: "Inter";
+  --fonte-primaria: "Inter", sans-serif;
   --fonte-corpo: Georgia, serif;
 }
 
@@ -61,16 +61,40 @@ table {
   border-spacing: 0;
 }
 
-.inter {
-  font-family: "Inter", sans-serif;
+/* Fontes*/
+
+.font_card_bold {
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 900;
   font-style: normals;
   font-variation-settings: "slnt" 0;
 }
+.font_descricao_card {
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 13px;
+  font-style: normals;
+  font-variation-settings: "slnt" 0;
+}
+
+/* Tamanhos */
 .w-101 {
   width: 101% !important;
 }
 .mh-101 {
   height: 101% !important;
+}
+
+/* Botão */
+.btn_roxo {
+  background-color: blueviolet;
+}
+:hover.btn_roxo {
+  background-color: rgb(97, 65, 126);
+}
+.redes_sociais {
+  background: black;
+  width: 100%;
+  height: 100px;
 }
