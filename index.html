@@ -17,17 +17,21 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <header>
-        <nav class="navbar  navbar-expand-lg bg-black" data-bs-theme="dark">
-            <img class="m-3" src="./assents/Logo desktop.svg" alt="Logo">
+        <nav class="navbar navbar-expand-md bg-black" data-bs-theme="dark">
+
             <div class="container-fluid">
-                <a class="navbar-toggler" href="#">Home</a>
+                <a class="navbar-toggler" href="#"><img class="m-3" src="./assents/Logo desktop.svg" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="align-items-center navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><img class="m-3"
+                                    src="./assents/Logo desktop.svg" alt="Logo"></a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -95,130 +99,122 @@
         </button>
     </div>
     <h2 class="text-center mt-5 mb-5 ">Busque por categoria:</h2>
-    <div class="container  mt-5 mb-5 d-flex gap-4">
-        <div class=" border  border-0 " style=" width: 12rem;">
-            <img src="./assents/CategoriaCamisetas.png" class="card-img-top" alt="...">
-            <div class="card-body bg-black text-white p-2">
-                <p class="card-text  text-center">Camisetas</p>
+    <div class="row container mx-auto g-4">
+        <div class="row mx-auto">
+            <div class="col-6 border  border-0 ">
+                <img src="./assents/CategoriaCamisetas.png" class="card-img-top" alt="...">
+                <div class="card-body bg-black text-white p-2">
+                    <p class="card-text  text-center">Camisetas</p>
+                </div>
+            </div>
+            <div class="col-6  border border-0">
+                <img src="./assents/CategoriaBolsa.png" class="card-img-top" alt="...">
+                <div class="card-body bg-black text-white p-2">
+                    <p class="card-text text-center">Bolsas</p>
+                </div>
             </div>
         </div>
-        <div class=" border border-0" style=" width: 12rem;">
-            <img src="./assents/CategoriaBolsa.png" class="card-img-top" alt="...">
-            <div class="card-body bg-black text-white p-2">
-                <p class="card-text text-center">Bolsas</p>
+        <div class="row mx-auto">
+            <div class="col-6  card border border-0">
+                <img src="./assents/CategoriaCalçados.png" class="card-img-top" alt="...">
+                <div class="card-body bg-black text-white p-2">
+                    <p class="card-text text-center">Calçados</p>
+                </div>
+            </div>
+            <div class="col-6  border border-0">
+                <img src="./assents/CategoriaCalcas.png" class="card-img-top" alt="...">
+                <div class="card-body bg-black text-white p-2">
+                    <p class="card-text text-center">Calças</p>
+                </div>
             </div>
         </div>
-        <div class=" border border-0" style=" width: 12rem;">
-            <img src="./assents/CategoriaCalçados.png" class="card-img-top" alt="...">
-            <div class="card-body bg-black text-white p-2">
-                <p class="card-text text-center">Calçados</p>
+        <div class="row mx-auto">
+            <div class="col-6  border border-0">
+                <img src="./assents/CategoriaCasacos.png" class="card-img-top" alt="...">
+                <div class="card-body bg-black text-white p-2">
+                    <p class="card-text text-center">Casacos</p>
+                </div>
             </div>
-        </div>
-        <div class=" border border-0" style="width: 12rem;">
-            <img src="./assents/CategoriaCalcas.png" class="card-img-top" alt="...">
-            <div class="card-body bg-black text-white p-2">
-                <p class="card-text text-center">Calças</p>
-            </div>
-        </div>
-        <div class=" border border-0" style="width: 12rem;">
-            <img src="./assents/CategoriaCasacos.png" class="card-img-top" alt="...">
-            <div class="card-body bg-black text-white p-2">
-                <p class="card-text text-center">Casacos</p>
-            </div>
-        </div>
-        <div class=" border border-0" style="width: 12rem;">
-            <img src="./assents/CategoriaOculos.png" class="card-img-top" alt="...">
-            <div class="card-body bg-black text-white p-2">
-                <p class="card-text text-center">Óculos</p>
+            <div class="col-6  border border-0">
+                <img src="./assents/CategoriaOculos.png" class="card-img-top" alt="...">
+                <div class="card-body bg-black text-white p-2">
+                    <p class="card-text text-center">Óculos</p>
+                </div>
             </div>
         </div>
     </div>
     <h2 class="text-center mb-3">Produtos que estão bombando!</h2>
-    <div class="container">
-        <div class="d-flex mb-5">
-            <div class="container" style="width: 25rem;">
-                <img src="./assents/imageProduto1.png" class="card-img-top" alt="...">
-                <div class="border border-top-0 card-body ">
-                    <h5 class="font_card_bold p-3">Camiseta Conforto</h5>
-                    <p class="card-text font_descricao_card ps-3">Multicores e tamanhos. Tecido de algodão 100%,
-                        fresquinho
-                        para
-                        o verão. Modelagem
-                        unissex.</p>
-                    <p class="font_card_bold ps-3">R$ 70,00</p>
-                    <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
-                </div>
-            </div>
-            <div class=" container" style="width: 25rem;">
-                <img src="./assents/imageProduto2.png" class="card-img-top" alt="...">
-                <div class="border border-top-0 card-body ">
-                    <h5 class="font_card_bold p-3">Camiseta Conforto</h5>
-                    <p class="card-text font_descricao_card ps-3">Multicores e tamanhos. Tecido de algodão 100%,
-                        fresquinho
-                        para
-                        o verão. Modelagem
-                        unissex.</p>
-                    <p class="font_card_bold ps-3">R$ 70,00</p>
-                    <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
-                </div>
-            </div>
-            <div class=" container" style="width: 25rem;">
-                <img src="./assents/imageProduto3.png" class="card-img-top" alt="...">
-                <div class="border border-top-0 card-body ">
-                    <h5 class="font_card_bold p-3">Camiseta Conforto</h5>
-                    <p class="card-text font_descricao_card ps-3">Multicores e tamanhos. Tecido de algodão 100%,
-                        fresquinho
-                        para
-                        o verão. Modelagem
-                        unissex.</p>
-                    <p class="font_card_bold ps-3">R$ 70,00</p>
-                    <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
-                </div>
+    <div class="container row">
+
+        <div class="container col">
+            <img src="./assents/imageProduto1.png" class="card-img-top" alt="...">
+            <div class="border border-top-0 card-body ">
+                <h5 class="font_card_bold p-3">Camiseta Conforto</h5>
+                <p class="card-text font_descricao_card ps-3">Multicores e tamanhos. Tecido de algodão 100%,
+                    fresquinho
+                    para
+                    o verão. Modelagem
+                    unissex.</p>
+                <p class="font_card_bold ps-3">R$ 70,00</p>
+                <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
             </div>
         </div>
-        <div class="d-flex">
-            <div class=" container" style="width: 25rem;">
-                <img src="./assents/imageProduto4.png" class="card-img-top" alt="...">
-                <div class="border border-top-0 card-body ">
-                    <h5 class="font_card_bold p-3">Camiseta Conforto</h5>
-                    <p class="card-text font_descricao_card ps-3">Multicores e tamanhos. Tecido de algodão 100%,
-                        fresquinho
-                        para
-                        o verão. Modelagem
-                        unissex.</p>
-                    <p class="font_card_bold ps-3">R$ 70,00</p>
-                    <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
-                </div>
-            </div>
-            <div class=" container" style="width: 25rem;">
-                <img src="./assents/imageProduto5.png" class="card-img-top" alt="...">
-                <div class="border border-top-0 card-body ">
-                    <h5 class="font_card_bold p-3">Camiseta Conforto</h5>
-                    <p class="card-text font_descricao_card ps-3">Multicores e tamanhos. Tecido de algodão 100%,
-                        fresquinho
-                        para
-                        o verão. Modelagem
-                        unissex.</p>
-                    <p class="font_card_bold ps-3">R$ 70,00</p>
-                    <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
-                </div>
-            </div>
-            <div class=" container" style="width: 25rem;">
-                <img src="./assents/imageProduto6.png" class="card-img-top" alt="...">
-                <div class="border border-top-0 card-body ">
-                    <h5 class="font_card_bold p-3">Camiseta Conforto</h5>
-                    <p class="card-text font_descricao_card ps-3">Multicores e tamanhos. Tecido de algodão 100%,
-                        fresquinho
-                        para
-                        o verão. Modelagem
-                        unissex.</p>
-                    <p class="font_card_bold ps-3">R$ 70,00</p>
-                    <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
-                </div>
+        <div class=" container col">
+            <img src="./assents/imageProduto2.png" class="card-img-top" alt="...">
+            <div class="border border-top-0 card-body ">
+                <h5 class="font_card_bold p-3">Calça Alfaiataria</h5>
+                <p class="card-text font_descricao_card ps-3">Modelo Wide Leg alfaiataria em linho. Uma peça pra
+                    vida toda!</p>
+                <p class="font_card_bold ps-3">R$ 180,00</p>
+                <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
             </div>
         </div>
+        <div class=" container col">
+            <img src="./assents/imageProduto3.png" class="card-img-top" alt="...">
+            <div class="border border-top-0 card-body ">
+                <h5 class="font_card_bold p-3">Tênis Chunky</h5>
+                <p class="card-text font_descricao_card ps-3">Snicker casual com solado mais alto e modelagem
+                    robusta. Modelo unissex.Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.
+                </p>
+                <p class="font_card_bold ps-3">R$ 250,00</p>
+                <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
+            </div>
+        </div>
+
+
+        <div class=" container col">
+            <img src="./assents/imageProduto4.png" class="card-img-top" alt="...">
+            <div class="border border-top-0 card-body ">
+                <h5 class="font_card_bold p-3">Jaqueta Jeans</h5>
+                <p class="card-text font_descricao_card ps-3">Modelo unissex oversized com gola de camurça.
+                    Atemporal e autêntica!</p>
+                <p class="font_card_bold ps-3">R$ 150,00</p>
+                <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
+            </div>
+        </div>
+        <div class=" container col">
+            <img src="./assents/imageProduto5.png" class="card-img-top" alt="...">
+            <div class="border border-top-0 card-body ">
+                <h5 class="font_card_bold p-3">Óculos Redondo</h5>
+                <p class="card-text font_descricao_card ps-3">Armação metálica em grafite com lentes arredondadas.
+                    Sem erro!</p>
+                <p class="font_card_bold ps-3">R$ 120,00</p>
+                <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
+            </div>
+        </div>
+        <div class=" container col">
+            <img src="./assents/imageProduto6.png" class="card-img-top" alt="...">
+            <div class="border border-top-0 card-body ">
+                <h5 class="font_card_bold p-3">Bolsa coringa</h5>
+                <p class="card-text font_descricao_card ps-3">Bolsa camel em couro sintético de alta duração. Ideal
+                    para acompanhar você por uma vida!</p>
+                <p class="font_card_bold ps-3">R$ 120,00</p>
+                <a href="#" class="btn btn_roxo btn-primary rounded-0 border-0 m-3">Ver mais</a>
+            </div>
+        </div>
+
     </div>
-    <div class="redes_sociais">
+    <div class="redes_sociais mt-5">
 
     </div>
 
